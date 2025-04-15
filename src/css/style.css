@@ -40,7 +40,7 @@ body{
 }
 
 .titulo-destaque{
-    color: var(--cor-primaria);
+    color: var(--cor-terciaria);
 }
 
 /* Corpo */
@@ -61,6 +61,11 @@ body{
 .apresentacao__conteudo__titulo{
     font-size: 36px;
     font-family: var(--fonte-principal);
+}
+
+.apresentacao__conteudo__resto__titulo {
+    font-size: 24px;
+    font-family: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto{
