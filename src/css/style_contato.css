@@ -24,22 +24,25 @@ body{
 
 /* Cabeçalho */
 .cabecalho__menu {
-    padding: 2% 0 0 15%;
+    padding: 2% 0 2% 15%;
     display: flex;
     gap: 80px;
+    background-color: var(--cor-terciaria);
 }
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     text-decoration: none;
+    
 }
 
 .titulo-destaque{
-    color: var(--cor-terciaria);
+    color: var(--cor-primaria);
 }
+
 
 /* Corpo */
 .apresentacao{
