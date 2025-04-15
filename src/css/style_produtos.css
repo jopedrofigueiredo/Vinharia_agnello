@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
 :root {
     --cor-primaria: #f6f6f6;
     --cor-secundaria: black;
@@ -20,17 +23,12 @@ body{
     color: var(--cor-secundaria);
 }
 
-.cabecalho {
-    padding: 2% 0 0 15%;
-    background-color:#8B008B ;
-    padding: 2rem;
-    text-align: center;
-}
-
+/* Cabeçalho */
 .cabecalho__menu {
+    padding: 2% 0 2% 15%;
     display: flex;
     gap: 80px;
-    padding-left: 210px;
+    background-color: var(--cor-terciaria);
 }
 
 .cabecalho__menu__link {
@@ -39,7 +37,13 @@ body{
     font-weight: 600;
     color: var(--cor-primaria);
     text-decoration: none;
+    
 }
+
+.titulo-destaque{
+    color: var(--cor-primaria);
+}
+
 
 .titulo-destaque{
     color: var(--cor-terciaria);
@@ -109,40 +113,48 @@ body{
 
 
   
-  .produtos {
-    padding: 2rem;
-  }
-  
-  .produtos h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .grid-produtos {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 2rem;
-  }
-  
-  .produto {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 1rem;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  .produto img {
-    width: 100%;
-    max-width: 150px;
-    margin-bottom: 1rem;
-  }
-  
-  .produto h3 {
-    margin-bottom: 0.5rem;
-  }
-  
- 
+.produtos {
+  padding: 0 5% 12% 5%;
+  font-family: var(--fonte-principal);
+}
+
+.produtos_h2 {
+  text-align: center;
+  padding: 7% 0 7% 0;
+  font-size: 36px;
+  color: var(--cor-terciaria);
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.produto {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: var(--fonte-secundaria);
+}
+
+.produto img {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.produto h3 {
+  margin-bottom: 0.5rem;
+}
+
+.produto_h4 {
+    color: var(--cor-terciaria);
+}
+
+
 .rodape {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
