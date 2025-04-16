@@ -27,4 +27,4 @@ Nome: João Paulo Fernandes, RM: 563430
 - [@jopedrofigueiredo](https://www.github.com/jopedrofigueiredo)
 Nome: João Pedro Mendes de Figueiredo RM: 558779
 - [@patricxk7](https://www.github.com/patricxk7)
-Nome: Patrick Canuto dos Santos, RM 563776
+Nome: Patrick Canuto dos Santos, RM: 563776
