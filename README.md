@@ -20,11 +20,11 @@ O site foi dividido nas seguintes páginas principais
 
 ## Autores
 
-Nome: Erick Munhoes Anciães, RM: 561484
 - [@erickanciaes](https://www.github.com/erickanciaes)
-Nome: João Paulo Fernandes, RM: 563430
+Nome: Erick Munhoes Anciães, RM: 561484
 - [@fernandesjp](https://www.github.com/fernandesjp)
-Nome: João Pedro Mendes de Figueiredo RM: 558779
+Nome: João Paulo Fernandes, RM: 563430
 - [@jopedrofigueiredo](https://www.github.com/jopedrofigueiredo)
-Nome: Patrick Canuto dos Santos, RM 563776
+Nome: João Pedro Mendes de Figueiredo RM: 558779
 - [@patricxk7](https://www.github.com/patricxk7)
+Nome: Patrick Canuto dos Santos, RM 563776
