@@ -161,3 +161,20 @@ body{
     margin-bottom: 10px;
 }
 
+.imagem__contato {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.imagem__contato img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.imagem__contato img:hover {
+    transform: scale(1.05);
+}
+
