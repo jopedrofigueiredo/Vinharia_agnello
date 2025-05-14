@@ -17,6 +17,9 @@ O site foi dividido nas seguintes páginas principais
 
 -Cadastro: Formulário usada para o Clube Fidelidade, onde o cliente se escrevendo receberá Promoções, novidades e ofertas exclusivas.
 
+## link github pages
+
+https://jopedrofigueiredo.github.io/Vinharia_agnello/
 
 ## Autores
 
