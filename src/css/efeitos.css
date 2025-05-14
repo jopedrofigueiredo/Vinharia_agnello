@@ -1,0 +1,7 @@
+.botao-flutuante:hover {
+    background-color: var(--cor-hover);
+}
+
+button:hover {
+    background-color: var(--cor-hover);
+}

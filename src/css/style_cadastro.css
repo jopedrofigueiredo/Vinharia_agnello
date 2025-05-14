@@ -151,10 +151,6 @@ button {
     transition: 0.3s;
 }
 
-button:hover {
-    background-color: var(--cor-hover);
-}
-
 /* position */
 .botao-flutuante {
     position: fixed;
@@ -174,8 +170,4 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: 0.3s;
     z-index: 1000;
-}
-
-.botao-flutuante:hover {
-    background-color: var(--cor-hover);
 }
