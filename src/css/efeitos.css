@@ -1,7 +1,15 @@
-.botao-flutuante:hover {
+.botao-flutuante:hover, button:hover {
     background-color: var(--cor-hover);
 }
 
-button:hover {
-    background-color: var(--cor-hover);
+.imagem__contato img:hover {
+    transform: scale(1.05);
+}
+
+input:focus, textarea:focus {
+    background-color: var(--cor-quarternaria);
+}
+
+button:active, .botao-flutuante:active {
+    background-color: var(--cor-terciaria);
 }
