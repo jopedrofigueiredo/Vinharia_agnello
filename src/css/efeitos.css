@@ -13,3 +13,27 @@ input:focus, textarea:focus {
 button:active, .botao-flutuante:active {
     background-color: var(--cor-terciaria);
 }
+
+produto::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: purple;
+  margin-bottom: 10px;
+}
+
+.produto::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: purple;
+  margin-top: 10px;
+}
+
+.produtos_h2::before {
+  content: "🍷 ";
+}
+
+.produtos_h2::after {
+  content: " 🛒";
+}
