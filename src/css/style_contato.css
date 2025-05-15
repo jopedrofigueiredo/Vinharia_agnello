@@ -177,4 +177,43 @@ body{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+<style>
+.animated-section {
+    animation: fadeInUp 1s ease forwards;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.animated-form {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(139, 0, 139, 0.3);
+}
+
+.formulario__botao:hover {
+    transform: scale(1.05);
+    background-color: var(--cor-hover);
+    transition: all 0.3s ease-in-out;
+}
+
+.imagem__contato img:hover {
+    transform: scale(1.05) rotate(1deg);
+    transition: transform 0.3s ease;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+</style>
+
 
