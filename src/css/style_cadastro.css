@@ -32,7 +32,7 @@ body{
     background-color: var(--cor-terciaria);
 }
 
-.cabecalho_menu_link {
+.cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
@@ -106,14 +106,13 @@ body{
 }
 
 .cadastro__imagem {
-display: flex;
-justify-content: center; /* Centraliza horizontalmente */
-align-items: center;     /* Centraliza verticalmente (opcional) */
-width: 100%;              /* A largura vai ser 100% da tela (ou container) */
-max-width: 50%;         /* A largura máxima vai ser de 300px */
-padding: 20px 0;          /* Espaçamento opcional */
-height: 300px;             /* A altura vai se ajustar automaticamente para manter a proporção */
-object-fit: contain;      /* A imagem se ajusta sem cortar e mantendo a proporção */
+  display: block;
+  margin: 40px auto 0 auto; 
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .formulario {
@@ -171,3 +170,4 @@ button {
     transition: 0.3s;
     z-index: 1000;
 }
+

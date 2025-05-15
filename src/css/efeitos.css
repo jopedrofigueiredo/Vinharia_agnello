@@ -14,7 +14,7 @@ button:active, .botao-flutuante:active {
     background-color: var(--cor-terciaria);
 }
 
-produto::before {
+.produto::before {
   content: "";
   display: block;
   height: 4px;
@@ -36,4 +36,13 @@ produto::before {
 
 .produtos_h2::after {
   content: " 🛒";
+}
+.botao-flutuante:hover{
+    transform: rotate(360deg);
+}
+.cabecalho__menu__link{
+  transition: transform 0.3s;
+} 
+.cabecalho__menu__link:hover{
+  transform: scale(1.3);
 }
