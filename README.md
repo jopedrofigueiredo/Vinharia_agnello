@@ -1,25 +1,49 @@
-# Check-Point: Site da Vinharia Agnello 🍷
+## 🍇🍷 Checkpoint: Vinharia Agnello 
+Bem-vindo ao repositório do site da Vinharia Agnello, uma tradicional loja de vinhos de São Paulo que, após mais de 15 anos no mercado físico, decidiu expandir sua presença para o mundo digital! 🛒🌐
 
-A Vinheria Agnello é uma loja de vinhos que existe há mais de 15 anos em São Paulo e sempre funcionou de forma tradicional, com atendimento personalizado na loja física. Com a pandemia, a vinheria perdeu clientes e decidiu criar uma loja online. O desafio do projeto é desenvolver um e-commerce que consiga oferecer uma boa experiência ao usuário, parecida com a da loja física, ajudando principalmente quem não entende muito de vinhos.
+O objetivo do projeto foi criar um e-commerce elegante, informativo e funcional, proporcionando aos usuários uma experiência online acolhedora e intuitiva, como no atendimento presencial da loja.
 
+## 🧭 Estrutura do Projeto
+O site é composto por 5 páginas principais:
 
-##  Estrutura do Projeto (Páginas)🧭
+🔸 Home
+Apresentação inicial da loja com convite ao cliente para conhecer os melhores vinhos e variedades.
 
-O site foi dividido nas seguintes páginas principais
+🔸 Quem Somos
+História da vinheria, seus diferenciais e compromisso com a excelência no atendimento.
 
--Home: Página inicial convidando o cliente a conhecer e adquiris os melhores vinhos e falando sobre as variedades.
+🔸 Produtos
+Galeria com imagens dos vinhos disponíveis, nomes e informações básicas sobre cada rótulo.
 
--Quem Somos: Conta a história da vinheria, como ela surgiu e o diferencial no atendimento.
+🔸 Contato
+Formulário para que o cliente possa entrar em contato, além de e-mail e localização da loja.
 
--Produtos: Galeria com imagens de vinhos disponíveis, com nome e algumas informações básicas.
+🔸 Cadastro
+Formulário para adesão ao Clube Fidelidade, garantindo acesso a promoções, novidades e ofertas exclusivas.
 
--Contato: Página com formulário para o cliente entrar em contato, além de informações como e-mail e localização.
-
--Cadastro: Formulário usada para o Clube Fidelidade, onde o cliente se escrevendo receberá Promoções, novidades e ofertas exclusivas.
-
-## link github pages
-
+## 🌐 Link para Visualização
+🔗 Acesse o site pelo GitHub Pages:
 https://jopedrofigueiredo.github.io/Vinharia_agnello/
+
+## ✨ Efeitos Visuais
+Para deixar o site mais interativo e visualmente atrativo, foi criado o arquivo efeitos.css, que foi importado no final do style.css. Os efeitos aplicados foram:
+
+🎨 Produtos com estilo personalizado
+Uso dos pseudo-elementos ::before e ::after para adicionar listras roxas decorativas em volta de cada produto. Também foram adicionados emojis temáticos nos títulos da seção de produtos, reforçando a identidade visual da página.
+
+🖱️ Efeitos de hover com zoom
+Aplicação do transform: scale() em cada aba de navegação, gerando um efeito de zoom ao passar o mouse, tornando a navegação mais envolvente.
+
+🔄 Animações em destaque
+Na página de contato, elementos como a área de envio de mensagens e a imagem do vinho receberam animações com transições suaves, proporcionando uma sensação moderna e fluida.
+
+🍷 Imagens de produtos com efeitos visuais
+As fotos dos vinhos foram animadas com transition para trazer mais vida à galeria de produtos.
+
+🔁 Botão animado
+O botão “Precisa de ajuda?” agora conta com um efeito de rotação de 360º, chamando a atenção do usuário de maneira divertida.
+
+Esses efeitos valorizam a estética do site e proporcionam uma experiência mais dinâmica e agradável para o usuário.
 
 ## Autores
 
