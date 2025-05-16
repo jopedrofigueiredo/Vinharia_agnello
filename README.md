@@ -26,24 +26,31 @@ Formulário para adesão ao Clube Fidelidade, garantindo acesso a promoções, n
 https://jopedrofigueiredo.github.io/Vinharia_agnello/
 
 ## ✨ Efeitos Visuais
-Para deixar o site mais interativo e visualmente atrativo, foi criado o arquivo efeitos.css, que foi importado no final do style.css. Os efeitos aplicados foram:
+Para tornar o site mais interativo e visualmente atrativo, foi criado o arquivo efeitos.css, importado no final do style.css. Aqui estão os principais efeitos aplicados:
 
-🎨 Produtos com estilo personalizado
-Uso dos pseudo-elementos ::before e ::after para adicionar listras roxas decorativas em volta de cada produto. Também foram adicionados emojis temáticos nos títulos da seção de produtos, reforçando a identidade visual da página.
+🎨 Produtos personalizados
+Uso de pseudo-elementos ::before e ::after para adicionar listras roxas decorativas nos produtos. Emojis temáticos também foram usados nos títulos para reforçar a identidade visual.
 
 🖱️ Efeitos de hover com zoom
-Aplicação do transform: scale() em cada aba de navegação, gerando um efeito de zoom ao passar o mouse, tornando a navegação mais envolvente.
+A pseudo-classe :hover aplica um efeito de zoom nas abas de navegação com transform: scale(), tornando a interação mais envolvente.
 
-🔄 Animações em destaque
-Na página de contato, elementos como a área de envio de mensagens e a imagem do vinho receberam animações com transições suaves, proporcionando uma sensação moderna e fluida.
+🔄 Animações suaves
+Na página de contato, áreas como envio de mensagens e imagem do vinho têm animações com transições suaves, proporcionando uma navegação fluida.
 
-🍷 Imagens de produtos com efeitos visuais
-As fotos dos vinhos foram animadas com transition para trazer mais vida à galeria de produtos.
+🍷 Imagens de produtos animadas
+As fotos dos vinhos possuem animações com transition, trazendo vida à galeria de produtos.
 
 🔁 Botão animado
-O botão “Precisa de ajuda?” agora conta com um efeito de rotação de 360º, chamando a atenção do usuário de maneira divertida.
+O botão “Precisa de ajuda?” agora possui um efeito de rotação de 360º, tornando-o mais chamativo.
 
-Esses efeitos valorizam a estética do site e proporcionam uma experiência mais dinâmica e agradável para o usuário.
+🖱️ Pseudo-classes aplicadas
+:hover: Botões nas abas Produto e Cadastro ficam cinza ao passar o mouse.
+
+:focus: Inputs ganham destaque azul ao serem focados.
+
+:active: Botões na aba Cadastro mudam de cor ao serem clicados.
+
+Esses efeitos visuais tornam o site mais dinâmico, interativo e agradável para o usuário.
 
 ## Autores
 
